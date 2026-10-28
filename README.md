@@ -75,3 +75,27 @@ while TV shows represented approximately 28.76%.
 This project helped me practice Python, Pandas, data cleaning,
 exploratory data analysis, and data visualization.
 It also helped me learn how to turn data into meaningful findings.
+
+## Visualizations
+
+### 1. Movies vs TV Shows
+![Movies vs TV Shows](./movies_vs_tv_shows.png)
+
+### 2. Release Years
+![Netflix Release Years](./release_years.png)
+
+### 3. Top 10 Categories
+![Top 10 Categories](./top_10_categories.png)
+
+### 4. Top 10 Ratings
+![Top 10 Ratings](./top_10_ratings.png)
+
+### 5. Top 10 Countries
+![Top 10 Countries](./top_10_countries.png)
+
+### 6. Titles Added by Year
+![Titles Added by Year](./titles_added_by_year.png)
+
+### 7. Movie Duration Distribution
+![Movie Duration Distribution](./movie_duration_distribution.png)
+
