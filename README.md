@@ -94,3 +94,6 @@ It also helped me learn how to turn data into meaningful findings.
 ![Titles Added by Year](./titles_added_by_year.png)
 
 ![Movie Duration Distribution](./movie_duration_distribution.png)
+### 8. TV Show Seasons
+
+![TV Show Seasons](./tv_show_seasons.png)
