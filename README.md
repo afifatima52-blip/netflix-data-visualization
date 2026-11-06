@@ -1,99 +1,116 @@
+# 🍿 Netflix Movies & TV Shows Data Visualization
 
-# Netflix Movies & TV Shows Data Analysis
+### Exploratory Data Analysis | Python | Data Visualization
 
-## Project Overview
+An exploratory Data Science project analyzing Netflix Movies and TV Shows using Python. This project explores content distribution, release trends, countries, ratings, categories, and movie durations through data analysis and visualizations.
 
-This project explores Netflix movies and TV shows using Python.
-The goal is to understand the dataset, handle missing values,
-perform exploratory data analysis (EDA), and discover useful insights.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557c)
+![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-4c72b0)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
 
-## Tools and Libraries
+---
+
+## 📌 Project Overview
+
+This project explores the Netflix titles dataset to understand the content available on the platform and discover patterns through exploratory data analysis.
+
+## 🎯 Project Objectives
+
+- Analyze Movies and TV Shows distribution.
+- Explore content by release year.
+- Identify top countries by content.
+- Analyze popular content categories.
+- Explore content ratings.
+- Study movie duration distribution.
+- Analyze TV show seasons.
+- Understand Netflix content trends through visualizations.
+
+## 🛠️ Tools & Technologies
 
 - Python
 - Pandas
+- NumPy
 - Matplotlib
 - Seaborn
 - Jupyter Notebook
 
-## Project Tasks
-
-- Loaded and explored the Netflix dataset.
-- Checked rows, columns, and missing values.
-- Calculated missing value percentages.
-- Checked for duplicate rows.
-- Handled missing values in selected columns.
-- Compared movies and TV shows.
-- Analyzed movie duration and TV show seasons.
-- Explored countries, ratings, categories, and years added.
-- Created a summary table of key results.
-
-## Key Findings
-
-### Movie Duration
-
-- Movies with available duration data: 6,128
-- Average movie duration: 99.58 minutes
-- Median movie duration: 98 minutes
-
-### TV Show Seasons
-
-- TV shows with available season data: 2,676
-- Median number of seasons: 1
-- Most common number of seasons: 1
-
-### Titles Added in 2019
-
-- Total titles added: 1,999
-- Movies: 1,424
-- TV shows: 575
-
-Movies represented approximately 71.24% of the titles added in 2019,
-while TV shows represented approximately 28.76%.
-
-## Data Cleaning
-
-- No complete duplicate rows were found.
-- Missing values were identified and their percentages calculated.
-- Missing values in director, country, cast, rating, and duration
-  were filled with "Unknown" in the cleaned dataset.
-- Missing date_added values were left unchanged because the
-  original dates were unavailable.
-
-## Project Files
-
-- `netflix_data_visualization.ipynb`: Analysis and visualizations
-- `netflix_titles_cleaned.csv`: Cleaned dataset
-- `netflix_analysis_summary.csv`: Summary of key results
-- `README.md`: Project documentation
-
-## Data Source
-
-[Netflix Movies and TV Shows Dataset](https://huggingface.co/datasets/hugginglearners/netflix-shows)
-
-## Conclusion
-
-This project helped me practice Python, Pandas, data cleaning,
-exploratory data analysis, and data visualization.
-It also helped me learn how to turn data into meaningful findings.
-
-
-## Visualizations
+## 📊 Data Visualizations
 
 ### 1. Movies vs TV Shows
+![Movies vs TV Shows](movies_vs_tv_shows.png)
 
-![Movies vs TV Shows](./movies_vs_tv_shows.png)
+### 2. Top 10 Countries
+![Top 10 Countries](top_10_countries.png)
 
-![Release Years](./release_years.png)
+### 3. Top 10 Categories
+![Top 10 Categories](top_10_categories.png)
 
-![Top 10 Categories](./top_10_categories.png)
+### 4. Top 10 Ratings
+![Top 10 Ratings](top_10_ratings.png)
 
-![Top 10 Ratings](./top_10_ratings.png)
+### 5. Release Years
+![Release Years](release_years.png)
 
-![Top 10 Countries](./top_10_countries.png)
+### 6. Titles Added by Year
+![Titles Added by Year](titles_added_by_year.png)
 
-![Titles Added by Year](./titles_added_by_year.png)
+### 7. Movie Duration Distribution
+![Movie Duration Distribution](movie_duration_distribution.png)
 
-![Movie Duration Distribution](./movie_duration_distribution.png)
 ### 8. TV Show Seasons
+![TV Show Seasons](tv_show_seasons.png)
 
-![TV Show Seasons](./tv_show_seasons.png)
+## 📂 Repository Structure
+
+```text
+netflix-data-visualization/
+│
+├── netflix_data_visualization.ipynb
+├── netflix_titles (1).csv
+├── netflix_titles_cleaned.csv
+├── netflix_analysis_summary.csv
+├── requirements.txt
+│
+├── movies_vs_tv_shows.png
+├── top_10_countries.png
+├── top_10_categories.png
+├── top_10_ratings.png
+├── release_years.png
+├── titles_added_by_year.png
+├── movie_duration_distribution.png
+└── tv_show_seasons.png
+```
+
+## 🚀 How to Run This Project
+
+1. Clone or download this repository.
+2. Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Open `netflix_data_visualization.ipynb` in Jupyter Notebook or VS Code.
+4. Run the notebook cells in order.
+
+## 📁 Project Files
+
+- **Jupyter Notebook:** Analysis and visualization code.
+- **Original CSV:** Original Netflix titles dataset.
+- **Cleaned CSV:** Processed dataset.
+- **Analysis Summary:** Summary of the analysis.
+- **PNG Images:** Generated visualizations.
+- **Requirements:** Required Python libraries.
+
+## 👩‍💻 Author
+
+**Afifa Fatima**
+
+Aspiring Data Scientist | Python | Data Analysis | Data Visualization
+
+---
+
+⭐ If you find this project interesting, feel free to explore the notebook!
+
