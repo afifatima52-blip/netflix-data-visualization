@@ -1,3 +1,4 @@
+![Netflix Data Visualization](image_f358bf52.jpg)
 # 🍿 Netflix Movies & TV Shows Data Visualization
 
 ### Exploratory Data Analysis | Python | Data Visualization
