@@ -1,4 +1,3 @@
-![Netflix Data Visualization](image_f358bf52.jpg)
 # 🎬 Netflix Data Visualization Project
 
 ![Netflix Data Visualization](image_f358bf52.jpg)
